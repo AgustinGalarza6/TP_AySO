@@ -1,0 +1,176 @@
+ls -l
+cd repogit
+ls -l
+cd Repo_Galarza
+ls -l
+cat /proc/cpuinfo
+cat /proc/cpuinfo | grep model
+cat /proc/cpuinfo | grep model | head -n2
+cat /proc/cpuinfo | grep model | head -n1
+cat /proc/cpuinfo | grep name | head -n1
+vagrant halt
+man vagrant
+vagrant halt
+cd ..
+vagrant halt
+whoami
+pwd
+ls
+mkdir repogit
+ls
+cd repogit
+pwd
+ls
+ls -al
+cd ..
+ssh-keygen -t ed25519
+ls -l
+ls
+mkdir repogit
+ls -al
+cd.ssh
+cd .ssh
+ls
+ls -l
+cat id_ed25519.pub
+cd ..
+ls -l
+cd repogit/
+ls -l
+rm -rf Repo_Galarza
+ls -l
+git clone git@github.com:AgustinGalarza6/Repo_Galarza.git
+ls -l
+cd Repo_Galarza
+ls -l
+echo "hola" > hola.txt
+ls -l
+git status
+git add hola.txt
+git comit -m "agregue un hola"
+ "agregue un hola"
+git status
+git comit -m "agregue un hola"
+git commit -m "agregue un hola"
+git config --global user.email "agustingalarza625@gmail.com"
+git commit -m "agregue un hola"
+git push
+cat /etc/passwd
+head /etc/passwd
+head -n2 /etc/passwd
+grep bash /etc/passwd > archivo2.txt
+ls -l
+cat archivo2.txt
+grep bash -n /etc/passwd > archivo2.txt
+cat archivo2.txt
+sort archivo2.txt 
+man sort
+sort -t ":" archivo2.txt 
+cat << EOF > archivo.txt
+Line 1
+Line 2
+Line 3
+EOF
+
+cat archivo.txt
+bc <<< 5+2
+manbc
+man bc
+ls -l
+echo "probando pipe"
+cat hola.txt | head -n2
+hwinfo
+cat/proc/cpuinfo
+cat /proc/cpuinfo
+cat /proc/cpuinfo | grep model
+cat /proc/cpuinfo | grep model | head -n2
+top
+whoami
+ls -l
+mkdir repogit_TpAyso
+ls -l
+cd repogit_TpAyso
+cd ..
+cd repogit
+mkdir TP_AySO
+ls -l
+cd TP_AySO
+cat /etc/os-release
+grep HOME_URL
+grep HOME_URL /etc/os-release
+whoami
+echo "vagrant" > datos_usuario.txt
+ls -l
+echo “Usuario=$(whoami)” > datos_usuario.txt 
+ls -l
+git add
+git clone git@github.com:AgustinGalarza6/TP_AySO.git
+ls -l
+git add
+cd ..
+ls -l
+git rm -r repogit_TpAyso
+cd repogit
+ls -l
+git rm -r repogit_TpAyso
+ls -al
+rm -rf TP_AySO
+ls -al
+git clone git@github.com:AgustinGalarza6/TP_AySO.git
+cd TP_AySO
+ls -al
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep --ignore-case Home_url /etc/os-release
+whoami
+echo "vagrant" > datos_usuario.txt
+git add .
+git config --global user.email "agustingalarza625@gmail.com"
+git config --global user.name "AgustinGalarza6"
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+ls -al
+cd datos_usuario.txt
+cd ..
+cd TP_AySO
+ls -al
+grep "model name" /proc/cpuinfo | head -n 1 >> archivo_cpu.txt
+git add archivo_cpu.txt
+/proc/cpuinfo
+ls -al
+cd archivo_cpu.txt
+grep /proc/cpuinfo
+/proc/cpuinfo
+ls -l /proc/cpuinfo
+cat proc/cpuinfo
+sudo cat /proc/cpuinfo
+sudo grep "model name" /proc/cpuinfo | head -n 1 > archivo_cpu.txt
+cat archivo_cpu.txt 
+grep -v "nologin" /etc/passwd | head -n 10 | sort -t: -k7 > lista_ordenada
+git add lista_ordenada
+git commit -m "ADD: Listado de usuarios ordenado"
+echo "tcpdump" > comando_dump_net
+echo "man tcpdump" >> comando_dump_net
+git add comando_dump_net
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat <<EOF >> README.md
+Alumno: <Galarza Pablo Agustin>
+División: <Div: 311-2>
+Turno: <Noche>
+EOF
+
+git add README.md 
+git commit -m "docs: Añadiendo información personal al README"
+history -a
+cp $HOME/.bash_history Historial_comandos_<Galarza Pablo Agustin>.txt
+cp $HOME/.bash_history Historial_comandos_<Tu-Nombre>.txt
+cp $HOME/.bash_history Historial_comandos_<Galarza Pablo Agustin>.txt
+pwd
+ls
+cat README.md 
+git add README.md 
+git commit -m "docs: Añadiendo información del alumno"
+history -a
